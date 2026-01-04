@@ -199,6 +199,12 @@ if (Q.sapd_formed && Q.sapd_r) {
             "seats": Math.round(Q.sapd_r*5),
             });
 }
+{
+        "id": "uspd",
+        "legend": "USPD",
+        "name": "USPD",
+        "seats": Math.round((Q.uspd_r)*5),
+    },
 data = data.concat([
     {
         "id": "spd",
