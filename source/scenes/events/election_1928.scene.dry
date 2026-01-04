@@ -189,12 +189,12 @@ data = [
         "legend": "KPD",
         "name": "KPD",
         "seats": Math.round(Q.kpd_r*5),
-}
+},
 {
         "id": "uspd",
         "legend": "USPD",
         "name": "USPD",
-        "seats": Math.round((Q.uspd_r)*5),
+        "seats": Math.round(Q.uspd_r*5),
     },
 data = data.concat([
     {
