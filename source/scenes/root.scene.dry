@@ -21,7 +21,7 @@ on-arrival: {!
 Q.started = 1;
 // time elapsed (in months)
 Q.time = 1;
-Q.year = 1928;
+Q.year = 1922;
 Q.month = 1;
 // how many actions have been taken this month?
 Q.month_actions = 0;
@@ -48,12 +48,14 @@ Q.dissent_percent = 5;
 // factions
 Q.factions = ['left', 'center', 'labor', 'reformist', 'neorevisionist'];
 // should this be normalized to 100%?
-Q.left_strength = 15;
-Q.left_dissent = 20;
-Q.center_strength = 30;
-Q.center_dissent = 0;
-Q.labor_strength = 25;
-Q.labor_dissent = 5;
+Q.left_strength = 0;
+Q.left_dissent = 0;
+Q.center_strength = 20;
+Q.center_dissent = 5;
+Q.labor_strength = 0;
+Q.labor_dissent = 0;
+Q.right_labor_strenght = 20;
+Q.right_labor_dissent = 5;
 Q.reformist_strength = 25;
 Q.reformist_dissent = 5;
 Q.neorevisionist_strength = 5;
@@ -101,20 +103,20 @@ Q.moderate_plan_adopted = 0;
 // organizations
 
 // inter-party relations
-Q.z_relation = 50;
-Q.kpd_relation = 25;
-Q.ddp_relation = 60;
-Q.dvp_relation = 35;
+Q.z_relation = 65;
+Q.kpd_relation = 10;
+Q.ddp_relation = 65;
+Q.dvp_relation = 39;
 // DNVP and NSDAP are invariably hostile
-Q.DNVP_relation = 10;
+Q.DNVP_relation = 15;
 Q.NSDAP_relation = 0;
 
-Q.kpd_leader = "Thälmann";
+Q.kpd_leader = "Brandler";
 // alternative is the Conciliators as party leader
-Q.kpd_party_leader = "Thälmann";
-Q.z_leader = "Brüning";
+Q.kpd_party_leader = "Brandler";
+Q.z_leader = "Trimborn";
 // party leader - can be Ludwig Kaas, Joseph Joos, or Adam Stegerwald after the 1928 December conference. Joos will be most friendly to the SPD.
-Q.z_party_leader = "Marx";
+Q.z_party_leader = "Trimborn";
 Q.nsdap_leader = "Hitler";
 
 // hmm... maybe we can play nice with Hindenburg???
