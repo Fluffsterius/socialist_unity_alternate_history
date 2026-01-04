@@ -298,24 +298,26 @@ Q.catholics_other = 12;
 // note: the Z figures also include the BVP (Bavarian people's party)
 // since they were ideologically similar, but they were separate parties.
 // They did not have a CDU/CSU-style relationship.
-Q.spd_r = 26;
-Q.kpd_r = 9;
-Q.z_r = 17;
-Q.ddp_r = 6;
-Q.dvp_r = 10;
-Q.dnvp_r = 20;
-Q.nsdap_r = 3;
-Q.other_r = 9;
+Q.spd_r = 22;
+Q.uspd_r = 16;
+Q.kpd_r = 3;
+Q.z_r = 18;
+Q.ddp_r = 8;
+Q.dvp_r = 13;
+Q.dnvp_r = 15;
+Q.nsdap_r = 0;
+Q.other_r = 5;
 
 // diff from prev
-Q.old_spd_r = 26;
-Q.old_kpd_r = 9;
-Q.old_z_r = 17;
-Q.old_ddp_r = 6;
-Q.old_dvp_r = 10;
-Q.old_dnvp_r = 20;
-Q.old_nsdap_r = 3;
-Q.old_other_r = 9;
+Q.old_spd_r = 22;
+Q.old_uspd_r = 16;
+Q.old_kpd_r = 3;
+Q.old_z_r = 18;
+Q.old_ddp_r = 8;
+Q.old_dvp_r = 13;
+Q.old_dnvp_r = 15;
+Q.old_nsdap_r = 0;
+Q.old_other_r = 5;
 
 // sapd isn't formed yet, but it may be formed
 Q.sapd_r = 0;
@@ -333,21 +335,21 @@ Q.economic_records = [];
 
 
 // State of the government
-Q.president = "Hindenburg";
+Q.president = "Ebert";
 // starting chancellor: Wilhelm Marx
-Q.chancellor = "Marx";
+Q.chancellor = "Wirth";
 Q.chancellor_party = 'Z';
-Q.spd_in_government = 0;
+Q.spd_in_government = 1;
 Q.z_in_government = 1;
-Q.ddp_in_government = 0;
-Q.dvp_in_government = 1;
-Q.dnvp_in_government = 1;
+Q.ddp_in_government = 1;
+Q.dvp_in_government = 0;
+Q.dnvp_in_government = 0;
 Q.kpd_in_government = 0;
 Q.nsdap_in_government = 0;
 
 Q.in_right_coalition = 0;
 // Weimar coalition = SPD + Z + DDP
-Q.in_weimar_coalition = 0;
+Q.in_weimar_coalition = 1;
 // Grand coalition = SPD + Z + BVP + DDP + DVP
 // also includes the "new grand coalition" of SPD + Z + BVP + DDP + DVP + Others
 Q.in_grand_coalition = 0;
@@ -377,22 +379,22 @@ Q.minority_government = 0;
 // ministries - which parties control the ministries?
 // starting with the 4th Marx cabinet https://en.wikipedia.org/wiki/Fourth_Marx_cabinet
 // is the agricultural ministry useful at all?
-Q.foreign_minister = 'Streseman';
-Q.foreign_minister_party = 'DVP';
-Q.interior_minister = 'von Keudell';
-Q.interior_minister_party = 'DNVP';
-Q.justice_minister = 'Hergt';
-Q.justice_minister_party = 'DNVP';
+Q.foreign_minister = 'Joseph Wirth';
+Q.foreign_minister_party = 'Z';
+Q.interior_minister = 'Köster';
+Q.interior_minister_party = 'SPD';
+Q.justice_minister = 'Radbruch';
+Q.justice_minister_party = 'SPD';
 Q.labor_minister = 'Brauns';
 Q.labor_minister_party = 'Z';
-Q.reichswehr_minister = 'Groener';
-Q.reichswehr_minister_party = 'I';
-Q.economic_minister = 'Curtius';
-Q.economic_minister_party = 'DVP';
-Q.finance_minister = 'Köhler';
+Q.reichswehr_minister = 'Gessler';
+Q.reichswehr_minister_party = 'DDP';
+Q.economic_minister = 'Schmidt';
+Q.economic_minister_party = 'SPD';
+Q.finance_minister = 'Hermes';
 Q.finance_minister_party = 'Z';
-Q.agriculture_minister = 'Schiele';
-Q.agriculture_minister_party = 'DNVP';
+Q.agriculture_minister = 'Hermes';
+Q.agriculture_minister_party = 'Z';
 
 // Events: what has occurred?
 Q.panzerkreuzer_seen = 0;
