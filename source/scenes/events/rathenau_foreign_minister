@@ -3,7 +3,7 @@ view-if: year = 1922 and month >= 1
 frequency: 1000
 max-visits: 1
 tags: event
-on-arrival: foreign_minister = 'Rathenau'; foreign_minister_Party = 'DDP'
+on-arrival: Q.foreign_minister = 'Rathenau'; Q.foreign_minister_Party = 'DDP';
 face-image: img/portraits/StresemannGustav.jpg
 new-page: true
 
