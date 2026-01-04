@@ -1,1 +1,12 @@
-WIP
+title: Walther Rathenau becomes foreign Minister
+view-if: year = 1922 and month >= 1
+frequency: 1000
+max-visits: 1
+tags: event
+on-arrival: foreign_minister = 'Rathenau'; foreign_minister_Party = 'DDP'
+face-image: img/portraits/StresemannGustav.jpg
+new-page: true
+
+= Walther Rathenau becomes foreign Minister
+
+Walther Rathenau a Industrialist DDPer has been made Foreign Minister and replaced Joseph Wirth for the Position
