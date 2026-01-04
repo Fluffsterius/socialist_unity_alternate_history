@@ -189,15 +189,6 @@ data = [
         "legend": "KPD",
         "name": "KPD",
         "seats": Math.round(Q.kpd_r*5),
-    }
-];
-if (Q.sapd_formed && Q.sapd_r) {
-    data.push({
-            "id": "sapd",
-            "legend": "SAPD",
-            "name": "SAPD",
-            "seats": Math.round(Q.sapd_r*5),
-            });
 }
 {
         "id": "uspd",
