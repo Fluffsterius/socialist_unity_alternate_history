@@ -1,7 +1,6 @@
-title: Center Party Conference
+title: The Death of Trimborn
 subtitle: The Center Party chooses their new leader...
 view-if: year = 1922 and month = 2
-frequency: 100000
 max-visits: 1
 tags: event
 new-page: true
