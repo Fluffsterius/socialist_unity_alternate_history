@@ -10,7 +10,7 @@ new-page: true
 <span style="color: #000000;">Carl Trimborn</span>, former <span style="color: #000000;">Centre Party</span> chancellor has died and now a new leader must be chosen.
 There is only one obvious answer and that is.
 
-- @marx: The '<span style="color: #000000;">Centre Party</span>' elects Wilhelm Marx as the party chair.
+- @marx: The <span style="color: #000000;">Centre Party</span> elects Wilhelm Marx as the party chair.
 
 @marx
 on-arrival: z_party_leader = "Marx"; z_relation -= 1
