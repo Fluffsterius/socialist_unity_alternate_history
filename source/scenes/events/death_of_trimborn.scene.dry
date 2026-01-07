@@ -1,5 +1,5 @@
 title: The Death of Trimborn
-subtitle: The '<span style="color: #000000;">Centre Party</span>' chooses their new leader...
+subtitle: The <span style="color: #000000;">Centre Party</span> chooses their new leader...
 view-if: year = 1922 and month = 2
 max-visits: 1
 tags: event
@@ -7,7 +7,7 @@ new-page: true
 
 =  Carl Trimborn has dead
 
-'<span style="color: #000000;">Carl Trimborn</span>', former Center Party chancellor has died and now a new leader must be chosen.
+<span style="color: #000000;">Carl Trimborn</span>, former <span style="color: #000000;">Centre Party</span> chancellor has died and now a new leader must be chosen.
 There is only one obvious answer and that is.
 
 - @marx: The '<span style="color: #000000;">Centre Party</span>' elects Wilhelm Marx as the party chair.
